@@ -7,8 +7,7 @@ public class Main {
 		System.out.println("hello world");
 		Worker aNewWorker = new Worker();
 		Integer ret = aNewWorker.printName();
-		ret = ret + 1;
-		System.out.println(ret);
+		int i = 0;
 	}
 
 }
