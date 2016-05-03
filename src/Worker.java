@@ -6,4 +6,8 @@ public class Worker {
 		System.out.println(name);
 		return 1;
 	}
+	
+	public void setName(String newName){
+		this.name = newName;
+	}
 }
